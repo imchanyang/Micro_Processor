@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\Debug\Ex4-9(Professor).obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Ex4-9(Professor).hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Ex4-9(Professor).map</FILE>
+  <FILE>Ex4-9(Professor).lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <REP1><FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</FILE><LINE>5</LINE></REP1>
+  <DELAY><FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</FILE><LINE>28</LINE></DELAY>
+  <L1><FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</FILE><LINE>30</LINE></L1>
+  <L2><FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</FILE><LINE>31</LINE></L2>
+  <L3><FILE>c:\users\imcha\Documents\Atmel Studio\7.0\Ex4-9(Professor)\Ex4-9(Professor)\main.asm</FILE><LINE>32</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>

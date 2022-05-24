@@ -1,0 +1,8 @@
+.INCLUDE "m128def.inc"
+
+	LDI R16, 0xff
+	OUT DDRB, R16
+L1:
+	SBI PORTB, 4
+	CBI PORTB, 4
+	RJMP L1

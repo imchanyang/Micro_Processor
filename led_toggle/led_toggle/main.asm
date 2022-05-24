@@ -1,0 +1,45 @@
+;
+; led_toggle.asm
+;
+; Created: 2022-04-04 오후 2:09:16
+; Author : imcha
+;
+
+
+.INCLUDE "m128def.inc"
+.ORG 0
+
+LDI R16, HIGH(RAMEND)
+OUT SPH, R16
+LDI R16, LOW(RAMEND)
+OUT SPL, R16
+LDI R16, 0x55
+
+LDI R17, 0xff
+OUT DDRB, R17
+
+BACK:
+	COM R16
+	OUT PORTB, R16
+	CALL DELAY_1S
+	RJMP BACK
+
+DELAY_1S:
+	LDI R20, 32
+L1:
+	LDI R21, 200
+L2:
+	LDI R22, 250
+L3:
+	NOP
+	NOP
+	DEC R22
+	BRNE L3
+	DEC R21
+	BRNE L2
+	DEC R20
+	BRNE L1
+	RET
+
+
+
